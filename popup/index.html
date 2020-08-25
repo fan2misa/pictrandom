@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="form">
+            <table>
+                <tr>
+                    <th>Dimension :</th>
+                    <td>
+                        <div class="row space-between">
+                            <div>
+                                <input type="number" size="4" name="width" value="800" />
+                            </div>
+                            <div>
+                                <span>x</span>
+                            </div>
+                            <div>
+                                <input type="number" size="4" name="height" value="600" />
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Flou :</th>
+                    <td>
+                        <select name="blur">
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Noir et blanc :</th>
+                    <td>
+                        <input type="checkbox" name="grayscale">
+                    </td>
+                </tr>
+            </table>
+            <div class="row center">
+                <button id="submit" class="primary">Récupérer</button>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

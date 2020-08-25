@@ -1,0 +1,77 @@
+html, body {
+	width: 300px;
+	font-family: sans-serif;
+}
+
+select, input {
+	outline: none;
+}
+
+select, input[type=number] {
+	border: 1px solid black;
+	border-radius: 2px;
+	-moz-appearance: textfield;
+	padding: 0.25rem;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+button {
+	background-color: white;
+	border: 1px solid;
+	border-radius: 2px;
+	padding: 5px;
+	min-width: 100px;
+}
+
+button.default {
+	background-color: #fcfcfd;
+	border-color: #b1b1b1;
+	color: #474747;
+}
+
+button.primary {
+	background-color: #0a84ff;
+	border-color: #0060df;
+	color: white;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form span {
+	padding: 0 5px;
+}
+
+table {
+	margin-bottom: 1rem;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	height: 30px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.row.space-between {
+	justify-content: space-between;
+}
+
+.row.center {
+	justify-content: center;
+}
+
+.p-1 {
+	margin-bottom: 1rem;
+}
